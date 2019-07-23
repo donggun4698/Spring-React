@@ -44,6 +44,7 @@
 
 .header.active {
   height: 320px;
+  transition: 0.5s;
 }
 
 .header.active .gnav div ul li {

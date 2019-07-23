@@ -1,6 +1,41 @@
 .main {
 }
 .main div {
-  border: 2px solid black;
-  height: 50px;
+  margin: 0 auto;
+}
+
+.main .banner {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+}
+
+/* h3 {
+  background: seagreen;
+  color: #fff;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+} */
+
+.banner .sliderBanner {
+  border: 1px solid black;
+  height: 400px;
+  max-width: 1900px;
+}
+
+.banner .sliderBanner .slick-dots {
+  bottom: 0px;
+}
+.slick-dots li button:before {
+  opacity: 1;
+  color: white;
+  font-size: 15px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #df6c6c;
 }
