@@ -1,0 +1,66 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  height: 100px;
+  z-index: 20;
+}
+
+.header-wrap {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-wrap > a {
+  position: relative;
+  z-index: 30;
+}
+
+.header .gnav {
+  position: relative;
+  text-align: right;
+  height: 100px;
+}
+
+.header .gnav div {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: top;
+  line-height: 70px;
+  width: 90px;
+  text-align: center;
+}
+
+.header .gnav div h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.header .gnav div ul li {
+  display: none;
+}
+
+.header.active {
+  height: 320px;
+}
+
+.header.active .gnav div ul li {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+}
+.header.active .gnav div ul li a {
+  display: block;
+  height: 40px;
+}
+
+.main-logo {
+  width: 100px;
+  height: 70px;
+  padding-top: 10px;
+  top: 40;
+  left: 40;
+  position: absolute;
+}
