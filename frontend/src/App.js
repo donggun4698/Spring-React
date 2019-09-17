@@ -4,7 +4,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/Home";
-
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 function App() {
   return (
     <Router>
@@ -23,6 +24,9 @@ function App() {
         <Route exact path="/fan" component={Home} />
 
         <Route exact path="/media" component={Home} />
+
+        <Route path="/login" component={Login} />
+        <Route path="/Signup" component={Signup} />
       </div>
       <Footer />
     </Router>

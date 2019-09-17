@@ -1,0 +1,41 @@
+.login-form {
+  position: relative;
+  margin: 200px auto 0;
+  padding: 58px;
+  width: 598px;
+  border: 1px solid rgb(179, 176, 176);
+}
+
+.login-form ul {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.login-form ul li {
+  margin-bottom: 15px;
+}
+
+.login-form ul li span {
+  font-size: 25px;
+  font-weight: 700;
+  width: 600px;
+}
+
+.login-form ul li input[type="text"],
+.login-form ul li input[type="password"] {
+  border: 1px solid rgb(226, 219, 219);
+  width: 498px;
+  height: 35px;
+}
+
+.login-form .submit {
+  border: 1px solid rgb(226, 219, 219);
+  width: 498px;
+  height: 50px;
+}
+
+.login-form .submit .MuiButton-label {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}

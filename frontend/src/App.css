@@ -4,8 +4,9 @@ a {
 
 .contents {
   position: relative;
-  margin-top: 100px;
-  min-height: calc(100vh - 100px - 170px);
+  margin-top: 130px;
+  /* 상단길이 제거 */
+  min-height: calc(100vh - 130px - 170px);
   /* footer 고정 -상단길이 -하단길이   */
 }
 

@@ -4,8 +4,9 @@
   left: 0;
   right: 0;
   background: #fff;
-  height: 100px;
+  height: 130px;
   z-index: 20;
+  overflow: hidden;
 }
 
 .header-wrap {
@@ -32,19 +33,17 @@
   line-height: 70px;
   width: 90px;
   text-align: center;
+  padding-top: 10px;
 }
 
 .header .gnav div h2 {
   font-size: 20px;
   font-weight: 700;
 }
-.header .gnav div ul li {
-  display: none;
-}
 
 .header.active {
   height: 320px;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .header.active .gnav div ul li {
@@ -64,4 +63,22 @@
   top: 40;
   left: 40;
   position: absolute;
+}
+
+.user-area {
+  height: 30px;
+  text-align: right;
+  font-size: 14px;
+}
+
+.user-area a span {
+  padding: 7.5px 5px 2.5px 5px;
+  display: inline-block;
+  height: 20px;
+}
+
+.user-area a span:hover {
+  background: rgb(160, 217, 240);
+  border-radius: 20% 20%;
+  opacity: 0.2;
 }

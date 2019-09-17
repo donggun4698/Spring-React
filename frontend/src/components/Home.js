@@ -12,20 +12,20 @@ class Home extends React.Component {
       infinite: true,
       arrows: false,
       autoplay: true,
-      autoplaySpeed: 1500
+      autoplaySpeed: 3000
     };
     return (
       <div className="main">
         <div className="banner">
           <Slider {...slickSettings}>
             <div>
-              <img src="https://placeimg.com/1900/400/1" />
+              <img src="https://placeimg.com/1900/400/1" alt="test" />
             </div>
             <div>
-              <img src="https://placeimg.com/1900/400/2" />
+              <img src="https://placeimg.com/1900/400/2" alt="test" />
             </div>
             <div>
-              <img src="https://placeimg.com/1900/400/3" />
+              <img src="https://placeimg.com/1900/400/3" alt="test" />
             </div>
           </Slider>
         </div>
